@@ -121,28 +121,22 @@ header h2 {
     transform: scale(1.1);
 }
 
-
 .software-section {
-    left: calc(50% - 650px); /* Adjusted to be on the left of main container */
+    left: calc(50% - 650px); /* on the left of main container */
     background-color:#6A0C9A ;
     color: #EAE6F2;
-    max-width: 600px;
+    left: calc(50% - 650px);
 }
 
 .hardware-section {
-    right: calc(50% - 650px); /* Adjusted to be on the right of main container */
+    right: calc(50% - 650px); /* on the right of main container */
     background-color: #6A0C9A;
     color: #EAE6F2;
-}
-
-/* Hover Effects for color interchange and glitch*/
-.software-section:hover {
-    background-color: #EAE6F2;
-    color: #6A0C9A;
     right: calc(50% - 650px);
 }
 
-.hardware-section:hover {
+/* Hover Effects for color interchange and glitch*/
+.software-section:hover,.hardware-section:hover {
     background-color: #EAE6F2;
     color: #6A0C9A;
     left: calc(50% - 650px);
